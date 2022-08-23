@@ -1,0 +1,119 @@
+
+
+body{
+    background: white;
+}
+
+.main {
+    
+    width: 100%;
+    max-width: 1200px;
+   background: black;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.noSearch{
+    
+    height: 900px;
+}
+.search-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+      background-image: url(/black.jpg);
+    
+}
+#input{
+    border-radius: 4px 0 0 4px;
+    
+    
+}
+
+#input, #button{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 20px;
+   
+    
+}
+#button{
+     
+    max-width: 100px;
+    border-radius: 0 4px 4px 0;
+    
+}
+
+#movies{
+    margin-top: 10px;
+    width: 95%;
+ margin-left: auto;
+ margin-right: auto;;
+    
+}
+
+#watchlist-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+    
+    
+}
+
+.poster{
+    width: 25%;
+  
+    
+}
+.right-container{
+    width: 73%;
+   height: 150px;
+    padding-left: 10px;
+}
+h2, p{
+    margin: 10px;;
+}
+#image{
+    width: 100px;
+    height: 150px;
+}
+.smallDetails{
+    display: flex;
+    justify-content: start;
+}
+.common{
+    margin-left: 20px;
+}
+.myWatchlist, #myWatchlist-To-Search-Container{
+font-weight: bold;
+font-size: 40px;
+color: white;
+
+}
+
+#myWatchlist-To-Search-Container{
+    display: flex;
+    justify-content: space-around;
+}
